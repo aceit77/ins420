@@ -1,0 +1,21 @@
+step 1: 
+Visit virusshare.com
+if you don't have account then sign up for an account. If you already have an account , log in.
+step 2:
+Search the malware files usually these files are available in hash(MD5/SHA1) format
+step 3:
+once you get the file then click on download link. The file will likely  be in zip format.
+step 4:
+After downloading the zip file extract it to unzip the file.
+Step5:
+after extracting the file you will get the document file inside it
+step 6:
+visit virustotal.com
+step 7:
+on the homepage you will see upload section where you can drag and drop files or click the upload button to browse and select file from system.
+step 8:
+Select the file which you just extract from the virusshare.com  and upload it . 
+step9:
+virus total will begin scanning the file using multiple antivirus engines
+step 10:
+Once the process complete virustotal will display theresults, showing how various antivirus engines classify the files. It will show the detection ration like (25/70) based on how many files aare found as malicious

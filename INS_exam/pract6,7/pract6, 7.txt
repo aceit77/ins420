@@ -1,0 +1,49 @@
+practical 6
+
+Here is a brief summary of the steps to configure Internet Protocol Security (IPSec) based on the document:
+
+1. **Open Windows Firewall**:
+   - Run `wf.msc` to open Windows Defender Firewall with Advanced Security.
+
+2. **Create a Security Method**:
+   - Navigate to **Actions > Properties**.
+   - Go to **IPsec Settings > Customize**.
+   - Under **Key exchange (Main Mode)**, select **Advanced > Customize**.
+   - Add a new security method and choose desired algorithms for encryption.
+   - Move the newly added method to the top of the list and remove others.
+   - Click **OK**.
+
+3. **Add Integrity and Encryption Algorithms**:
+   - In the **Customize IPsec Defaults** window, under **Data protection (Quick Mode)**, select **Advanced > Customize**.
+   - Check **Require encryption for all connection and security rules**.
+   - Add integrity and encryption algorithms.
+   - Ensure that **ESP** is selected as the protocol.
+   - Choose algorithms and move them to the top of the list.
+   - Remove other algorithms and click **OK**.
+
+These steps help configure secure communication using IPSec.
+
+
+practical 7
+
+
+Here is a summary of the steps for **Malware Analysis and Detection** using the VirusTotal website:
+
+1. **Access VirusTotal**:
+   - Open [virustotal.com](https://www.virustotal.com) in your browser.
+
+2. **Upload Malware Sample**:
+   - Use the **File** tab to upload the suspected malware file from your computer.
+   - Alternatively, you can use the **URL** tab to scan a suspicious URL.
+
+3. **Analyze Results**:
+   - VirusTotal will scan the file/URL with multiple antivirus engines.
+   - Review the detection results from various engines to determine if the file is malware.
+
+4. **Behavior Analysis**:
+   - Check the **Behavior** section to observe how the malware behaves on different systems and environments.
+
+5. **Develop Countermeasures**:
+   - Based on the analysis, identify how the malware operates and plan security measures to mitigate its impact (e.g., removing the malware, patching vulnerabilities).
+
+These steps outline how to use VirusTotal for malware detection and analysis.
