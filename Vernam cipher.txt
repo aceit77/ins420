@@ -1,0 +1,23 @@
+pract 1.4 Vernam cipher 
+
+
+import java.lang.Math;
+public class Vernam {
+ public static void main(String[] args) {
+ String Plaintext = new String("computercian");
+ char[] arText = Plaintext.toCharArray();
+ String key = new String("ABCDEFGXYZHIJ");
+ char[] arKey = key.toCharArray();
+ char[] Ciphertext = new char[13];
+ System.out.println("Encoded"+ Plaintext + " to be... ");
+ for(int i =0; i<arText.length;i++){
+ Ciphertext[i] =(char) (arText[i] ^ arKey[i]);
+ System.out.println(Ciphertext[i]);
+ }
+ System.out.println("Decoded to be... ");
+ for(int i = 0; i<Ciphertext.length;i++){
+ char temp = (char)(Ciphertext[i] ^ arKey[i]);
+ System.out.print(temp);
+ }
+ }
+}
